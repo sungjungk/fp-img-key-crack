@@ -25,6 +25,6 @@ You require the following to build this project:
 - glib-2.0
 
 # Disclosure Timeline:
-2019-03-23: Vulnerability reported to manufacturer
+2019-03-23: Vulnerability reported to manufacturer  
 2019-07-09: Public release of security advisory
 
