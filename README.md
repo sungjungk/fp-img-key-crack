@@ -2,10 +2,12 @@
 It is a PoC to crack encrypted fingerprint image generated in U.are.U 4500 Fingerprint Reader.  
 
 # Overview
-Digital Persona U.are.U 4500 is a fingerprint reader for authentication and identification solutions.
-The manufacturer describes the product as follows (see [1]):
+Digital Persona U.are.U 4500 is a fingerprint reader for authentication and identification solutions.  
+The manufacturer describes the product as follows (see [1]):  
 
 * To use, simply place a finger on the reader window and the reader quickly and automatically captures and ***encrypts the fingerprint image*** before sending it to the DigitalPersona® FingerJet™ biometric engine for verification. For superior user feedback, a red “flash” indicates that a fingerprint image has been captured.
+
+link: https://www.hidglobal.com/sites/default/files/resource_files/eat-digitalpersona-4500-reader-ds-en.pdf  
 
 Due to weak encryption, the U.are.U 4500 Fingerprint Reader is vulnerable to decryption of the encrypted fingerprint image. 
 This could allows an attacker to make a natural-looking fingerprint image and impersonate a legitimate fingerprint authentication.
