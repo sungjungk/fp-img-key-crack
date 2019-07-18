@@ -13,7 +13,7 @@ Due to weak encryption, the U.are.U 4500 Fingerprint Reader is vulnerable to dec
 This could allows an attacker to make a natural-looking fingerprint image and impersonate a legitimate fingerprint authentication.
 
 # Vulnerabilities Details:
-An issue was discovered in U.are.U 4500 Fingerprint Reader v24. 
+[CVE-2019-13604] An issue was discovered in U.are.U 4500 Fingerprint Reader v24. 
 A key for encrypting fingerprint image is vulnerable to brute-force attacks. 
 It allows an attacker to extract a natural-looking fingerprint image from encrypted fingerprint image. 
 Successful exploitation causes sensitive biometric information leak. 
@@ -27,6 +27,6 @@ You require the following to build this project:
 - glib-2.0
 
 # Disclosure Timeline:
-2019-03-23: Vulnerability reported to manufacturer  
-2019-07-09: Public release of security advisory
-
+2019-03-23: Vulnerability reported to manufacturer.    
+2019-07-09: Public release of security advisory.  
+2019-07-15: CVE-2019-13604 has been assigned.
